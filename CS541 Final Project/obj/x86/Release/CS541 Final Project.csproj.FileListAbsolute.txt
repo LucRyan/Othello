@@ -1,0 +1,15 @@
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\bin\Release\CS541 Final Project.exe
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\bin\Release\CS541 Final Project.pdb
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\MainWindow.baml
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\Splash.baml
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\MainWindow.g.cs
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\Splash.g.cs
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\App.g.cs
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\CS541 Final Project_MarkupCompile.cache
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\CS541 Final Project.g.resources
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\CS541_Final_Project.Properties.Resources.resources
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\CS541 Final Project.exe
+C:\Users\Kin\Desktop\CS541 Final Project_12_05_2011_11_06\CS541 Final Project\obj\x86\Release\CS541 Final Project.pdb

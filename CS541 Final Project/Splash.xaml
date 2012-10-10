@@ -1,0 +1,89 @@
+﻿<Window x:Class="CS541_Final_Project.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Splash" Height="440" Width="370" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+	<Window.Resources>
+		<Storyboard x:Key="StartAnime">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-263"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-268"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-264"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-259"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="87"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="273"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="278"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="271"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock2">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-53"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-248"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-253"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-249"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock3">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="45"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="267"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="278"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="273"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="266"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource StartAnime}"/>
+		</EventTrigger>
+	</Window.Triggers>
+    <Grid Width="352" Height="416" MouseLeftButtonUp="Grid_MouseLeftButtonUp">
+    	<Rectangle RadiusY="8.5" RadiusX="8.5">
+    		<Rectangle.Effect>
+    			<DropShadowEffect/>
+    		</Rectangle.Effect>
+    		<Rectangle.Fill>
+    			<ImageBrush ImageSource="Images/StarScreen.png"/>
+    		</Rectangle.Fill>
+    	</Rectangle>
+    	<TextBlock x:Name="textBlock" Margin="0,135,-223,0" TextWrapping="Wrap" FontFamily="STHupo" FontSize="48" FontWeight="Bold" HorizontalAlignment="Right" Height="46" VerticalAlignment="Top" Width="209" RenderTransformOrigin="0.5,0.5">
+    		<TextBlock.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</TextBlock.RenderTransform><Run Language="zh-cn" Text="Reversi"/></TextBlock>
+    	<TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="31" Margin="-163,0,0,106" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="144" FontSize="21.333" FontFamily="Segoe WP Black" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+    		<TextBlock.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</TextBlock.RenderTransform><Run Language="zh-cn" Text="Yizhe Chang"/></TextBlock>
+    	<TextBlock x:Name="textBlock2" HorizontalAlignment="Right" Height="31" Margin="0,0,-158,71" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="144" FontSize="21.333" FontFamily="Segoe WP Black" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+    		<TextBlock.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</TextBlock.RenderTransform><Run Language="zh-cn" Text="Yang Wang"/></TextBlock>
+    	<TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Height="31" Margin="-163,0,0,34" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="144" FontSize="21.333" FontFamily="Segoe WP Black" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+    		<TextBlock.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</TextBlock.RenderTransform><Run Language="zh-cn" Text="Peizhu Zhang"/></TextBlock>
+    </Grid>
+</Window>
